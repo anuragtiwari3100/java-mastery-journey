@@ -2,6 +2,14 @@
       private  int length;
       private  int breath;
 
+  
+     //  DataHiding(int x , int y){
+     // length = x;
+     // breath = y;
+     //  }
+
+
+
     public int getLength(){
         return length;
     }
@@ -24,13 +32,15 @@
 }
 
 public class Implementing{
-   public static void   main(String args[]){
-     DataHiding dh = new DataHiding();
-     // dh.length=10;
-     // dh.breath= 20;
+   public static void   main(String[] args){
+     // DataHiding dh = new DataHiding(10,20);
+      DataHiding dh = new DataHiding();
+//      // dh.length=10;
+//      // dh.breath= 20;
+//  dh.setLeangth(10);
+//  dh.setBreath(20); 
+//   System.out.print(dh.Area());
 
- dh.setLeangth(10);
- dh.setBreath(20);
-  System.out.print(dh.Area());
+
    }
 }
