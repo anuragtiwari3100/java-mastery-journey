@@ -6,6 +6,7 @@ public class ThrowVsThorws1 {
         }
         return length*breath;
     }
+    
      void meath2(){
         try {
             area(-10,-20);

@@ -1,6 +1,3 @@
-
-
-
 public class ThrowVsThorws2 extends NegativeBalanceExeption{
        
     int area(int length, int breath) throws Exception{
@@ -8,7 +5,7 @@ public class ThrowVsThorws2 extends NegativeBalanceExeption{
             throw new NegativeBalanceExeption();
         }
         return length*breath;
-    }
+    }   
      void meath2(){
         try {
             area(-10,-20);
