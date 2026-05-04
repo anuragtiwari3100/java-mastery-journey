@@ -11,14 +11,6 @@ public class MultiThreadingExample {
      }
 }
 
-
-
-//Signature of run meathodmust be as follows
-// Must be public
-// Return type must be void
-// Takes no arguments
-// Cannot throw checked exceptions in the signature (like throws Exception )
-
 class ThreadExample extends Thread{
     public void run(){
         int i=0;
